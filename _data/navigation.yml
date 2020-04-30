@@ -1,0 +1,20 @@
+# main links
+main:
+  - title: "Theme 1"
+    url: /theme1/
+  - title: "Theme 2"
+    url: /theme2/
+  - title: "Theme 3"
+    url: /theme3/
+  - title: "Publications"
+    url: /publications/
+  - title: "About"
+    url: /about/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
