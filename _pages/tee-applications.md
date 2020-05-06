@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Theme 1
-permalink: /theme1/
+title: Applications of TEEs
+permalink: /tee-applications/
 ---
 Sample page for first theme.
 

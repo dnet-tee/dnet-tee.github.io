@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "Applications of TEEs"
-    url: /theme1/
+    url: /tee-applications/
   - title: "Side Channels"
-    url: /theme2/
+    url: /side-channels/
   - title: "HW/SW co-design"
-    url: /theme3/
+    url: /hw-sw-co-design/
 #  - title: "Publications"
 #    url: /publications/
   - title: "About"

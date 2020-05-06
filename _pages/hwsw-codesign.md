@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Theme 3
-permalink: /theme3/
+title: HW/SW co-design
+permalink: /hw-sw-co-design/
 ---
 Sample page for first theme.
 

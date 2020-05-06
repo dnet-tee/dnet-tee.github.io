@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Theme 2
-permalink: /theme2/
+title: Side Channels
+permalink: /side-channels/
 ---
 Sample page for first theme.
 
