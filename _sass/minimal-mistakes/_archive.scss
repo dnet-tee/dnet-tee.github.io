@@ -49,6 +49,7 @@
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
+  height: 3em;
 
   a[rel="permalink"]::before {
     content: '';
@@ -241,9 +242,14 @@
 }
 
 .feature__item {
-  position: relative;
+  // position: relative;
   margin-bottom: 2em;
   font-size: 1.125em;
+
+  position: fixed;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 
   @include breakpoint($small) {
     float: left;
