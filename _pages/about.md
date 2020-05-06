@@ -5,7 +5,7 @@ title: About us
 permalink: /about/
 feature_row:
   - image_path: "https://distrinet.cs.kuleuven.be/people/images/u0018905.jpg"
-    alt: "Frank Piessens"
+    alt: ""
     title: "Frank Piessens"
     url: "https://distrinet.cs.kuleuven.be/people/frank"
     btn_label: "Read More"
