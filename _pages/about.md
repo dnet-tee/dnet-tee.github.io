@@ -14,7 +14,7 @@ feature_row:
   - image_path: "https://distrinet.cs.kuleuven.be/people/images/u0076236.jpg"
     title: "Jan Tobias Mühlberg"
     excerpt: "Research Manager"
-    url:"https://distrinet.cs.kuleuven.be/people/muehlber"
+    url: "https://distrinet.cs.kuleuven.be/people/muehlber"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: "https://distrinet.cs.kuleuven.be/people/images/u0057811.jpg"
@@ -44,7 +44,6 @@ feature_row2:
     btn_label: "Read More"
     btn_class: "btn--inverse"
 
-
 feature_row3:
   - image_path: "https://distrinet.cs.kuleuven.be/people/images/u0091530.jpg"
     title: "Neline van Ginkel"
@@ -66,6 +65,7 @@ feature_row3:
     btn_class: "btn--inverse"
 
 ---
+
 Want to join us? We are always looking for motivated and talented people!
 {: .notice--info}
 
