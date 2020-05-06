@@ -19,7 +19,7 @@ feature_row:
     btn_class: "btn--inverse"
   - image_path: /assets/img/chip-unsplash.jpg
     title: "Job Noorman"
-    url: /job/
+    url: "https://distrinet.cs.kuleuven.be/people/frank"
     btn_label: "Read More"
     btn_class: "btn--inverse"
     excerpt: "Short Job text."

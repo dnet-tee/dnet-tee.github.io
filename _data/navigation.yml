@@ -6,8 +6,8 @@ main:
     url: /theme2/
   - title: "Theme 3"
     url: /theme3/
-  - title: "Publications"
-    url: /publications/
+#  - title: "Publications"
+#    url: /publications/
   - title: "About"
     url: /about/
   # - title: "About"
