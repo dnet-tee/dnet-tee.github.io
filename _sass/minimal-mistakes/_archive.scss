@@ -242,14 +242,9 @@
 }
 
 .feature__item {
-  // position: relative;
+  position: relative;
   margin-bottom: 2em;
   font-size: 1.125em;
-
-  position: fixed;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
 
   @include breakpoint($small) {
     float: left;
@@ -275,6 +270,13 @@
       max-height: 200px;
       overflow: hidden;
     }
+  }
+
+  a.btn {
+    position: fixed;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
   }
 
   .archive__item-body {
