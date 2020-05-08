@@ -4,7 +4,7 @@ main:
     url: /tee-applications/
   - title: "Side Channels"
     url: /side-channels/
-  - title: "HW/SW co-design"
+  - title: "Processor extensions for security"
     url: /hw-sw-co-design/
 #  - title: "Publications"
 #    url: /publications/
