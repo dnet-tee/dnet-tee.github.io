@@ -1,6 +1,8 @@
 # Website of the DistriNet TEE Group
 Forked from [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
+Deployed at: https://dnet-tee.github.io/
+
 ## Installation
 Run 
 ```bash
