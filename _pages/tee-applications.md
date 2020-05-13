@@ -2,6 +2,7 @@
 layout: single
 title: Applications of TEEs
 permalink: /tee-applications/
+classes: wide
 ---
 Sample page for first theme.
 

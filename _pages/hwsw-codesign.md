@@ -2,6 +2,7 @@
 layout: single
 title: Processor extensions for security
 permalink: /hw-sw-co-design/
+classes: wide
 ---
 
 ## Processor extensions for security

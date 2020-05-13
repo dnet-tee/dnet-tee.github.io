@@ -2,6 +2,7 @@
 layout: single
 title: Microarchitectural side-channel attacks
 permalink: /side-channels/
+classes: wide
 ---
 Some highlights of previously published research projects and CPU
 vulnerabilities discovered in our group (**note:** click on the logos to be
