@@ -25,7 +25,7 @@
   ol {
     padding: 0;
     list-style: none;
-    font-size: $type-size-6;
+    font-size: $type-size-5;
 
     @include breakpoint($large) {
       float: right;
@@ -178,6 +178,8 @@
   align-items: center;
   min-height: $nav-height;
   background: $background-color;
+
+  font-size: $type-size-4;
 
   a {
     display: block;
@@ -432,7 +434,7 @@
 
 .nav__list .nav__items {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: $type-size-3;
 
   a {
     color: inherit;

@@ -1,9 +1,19 @@
 ---
-layout: single
+layout: splash
 title: Processor extensions for security
 permalink: /hw-sw-co-design/
 classes: wide
 ---
+
+<div class="feature__item--center">
+   <div class="archive__item">
+    <h1>Processor extensions for extensions</h1>       
+    <p>
+      Short teaser text for applications<br >
+    </p>
+    
+  </div>
+</div>
 
 ## Processor extensions for security
 

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 classes: wide
 title: About us
 permalink: /about/
@@ -66,8 +66,16 @@ feature_row3:
 
 ---
 
-Want to join us? We are always looking for motivated and talented people!
-{: .notice--info}
+<div class="feature__item--center">
+   <div class="archive__item">
+    <h1>About us</h1>       
+    <p>
+      We are the TEE Group at imec-DistriNet at KU Leuven.<br >
+    </p>
+    <p class="notice--info">Want to join us? We are always looking for motivated and talented people!</p>
+    
+  </div>
+</div>
 
 ### Our team:
 {: .text-center}

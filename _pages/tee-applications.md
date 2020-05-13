@@ -1,10 +1,20 @@
 ---
-layout: single
+layout: splash
 title: Applications of TEEs
 permalink: /tee-applications/
 classes: wide
 ---
-Sample page for first theme.
+
+<div class="feature__item--center">
+   <div class="archive__item">
+    <h1>Applications of TEEs</h1>       
+    <p>
+      Short teaser text for applications<br >
+    </p>
+    
+  </div>
+</div>
+
 
 ## Normal markdown
 This is a normal markdown file.

@@ -75,7 +75,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
 
   & + p {
     text-indent: 0;
@@ -236,6 +236,7 @@
   margin-bottom: 2em;
   border-bottom: 1px solid $border-color;
   width: 100%;
+  text-align: center;
 
   .archive__item-title {
     margin-bottom: 0;
@@ -376,9 +377,14 @@
     float: left;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 4em;
     width: 100%;
     clear: both;
-    font-size: 1.125em;
+    font-size: $type-size-4;
+
+    small {
+      font-size: $type-size-5v2;
+    }
 
     .archive__item {
       float: left;

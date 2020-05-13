@@ -108,7 +108,7 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: $type-size-5;
   }
 
   /* paragraph indents */
@@ -243,6 +243,11 @@ body {
     color: #fff;
     text-decoration: none;
   }
+}
+
+/** custom distrinet template */
+.splash h1 {
+  margin-top: 1em;
 }
 
 /*
