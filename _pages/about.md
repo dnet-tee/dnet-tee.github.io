@@ -4,20 +4,20 @@ classes: wide
 title: About us
 permalink: /about/
 feature_row:
-  - image_path: "https://distrinet.cs.kuleuven.be/people/images/u0018905.jpg"
+  - image_path: "/assets/img/people/u0018905.jpg"
     alt: ""
     title: "Frank Piessens"
     url: "https://distrinet.cs.kuleuven.be/people/frank"
     btn_label: "Read More"
     btn_class: "btn--inverse"
     excerpt: "Professor"
-  - image_path: "https://distrinet.cs.kuleuven.be/people/images/u0076236.jpg"
+  - image_path: "/assets/img/people/u0076236.jpg"
     title: "Jan Tobias Mühlberg"
     excerpt: "Research Manager"
     url: "https://distrinet.cs.kuleuven.be/people/muehlber"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: "https://distrinet.cs.kuleuven.be/people/images/u0057811.jpg"
+  - image_path: "/assets/img/people/u0057811.jpg"
     title: "Job Noorman"
     url: "https://distrinet.cs.kuleuven.be/people/job"
     btn_label: "Read More"
@@ -25,19 +25,19 @@ feature_row:
     excerpt: "Postdoc"
 
 feature_row2:
-  - image_path: "https://distrinet.cs.kuleuven.be/people/images/u0131883.jpg"
+  - image_path: "/assets/img/people/u0131883.jpg"
     title: "Fritz Alder"
     excerpt: "Researcher"
     url: "https://distrinet.cs.kuleuven.be/people/fritz"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: "https://distrinet.cs.kuleuven.be/people/images/missing.jpg"
+  - image_path: "/assets/img/people/missing.jpg"
     title: "Sepideh Pouyanrad"
     excerpt: "Researcher"
     url: "https://distrinet.cs.kuleuven.be/people/sepideh"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: "https://distrinet.cs.kuleuven.be/people/images/u0104574.jpg"
+  - image_path: "/assets/img/people/u0104574.jpg"
     title: "Jo Van Bulck"
     excerpt: "Researcher"
     url: "https://distrinet.cs.kuleuven.be/people/jo"
@@ -45,19 +45,19 @@ feature_row2:
     btn_class: "btn--inverse"
 
 feature_row3:
-  - image_path: "https://distrinet.cs.kuleuven.be/people/images/u0091530.jpg"
+  - image_path: "/assets/img/people/u0091530.jpg"
     title: "Neline van Ginkel"
     excerpt: "Researcher"
     url: "https://distrinet.cs.kuleuven.be/people/neline"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: "https://distrinet.cs.kuleuven.be/people/images/u0111663.jpg"
+  - image_path: "/assets/img/people/u0111663.jpg"
     title: "Kobe Vrancken"
     excerpt: "Researcher"
     url: "https://distrinet.cs.kuleuven.be/people/kobe"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: "https://distrinet.cs.kuleuven.be/people/images/missing.jpg"            
+  - image_path: "/assets/img/people/missing.jpg"            
     title: "Hans Winderix"
     excerpt: "Researcher"
     url: "https://distrinet.cs.kuleuven.be/people/hansw"
@@ -77,9 +77,7 @@ feature_row3:
   </div>
 </div>
 
-### Our team:
-{: .text-center}
-
+## Our team:
 {% include feature_row %}
 
 {% include feature_row id="feature_row2" %}
