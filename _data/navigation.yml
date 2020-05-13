@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "Applications of TEEs"
+  - title: "TEE applications"
     url: /tee-applications/
-  - title: "Side Channels"
+  - title: "Microarchitectural attacks"
     url: /side-channels/
-  - title: "Processor extensions for security"
+  - title: "CPU extensions for security"
     url: /hw-sw-co-design/
 #  - title: "Publications"
 #    url: /publications/
