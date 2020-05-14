@@ -32,10 +32,33 @@ With the recent success of the open-source instruction set architecture RISC-V, 
 becomes a realistic option to build custom processors that include security extensions
 tailored for specific use-cases or applications.
 
-In our research group, we are working on a RISC-V processor framework specifically
-designed to support extensibility for security purposes.
+In our research group, we are working on a RISC-V processor framework to support
+security research. Unlike many other open source RISC-V implementations, this
+processor is not designed with any efficiency criteria in mind. Instead, the
+goal of the design is to allow for easy experimentation with processor
+extensions and adaptations. To this end, the framework is implemented using
+[SpinalHDL](https://github.com/SpinalHDL), a Scala-based HDL that allows to
+create interesting hardware abstraction in a high-level programming language.
+The processor framework itself is built around the concept of plugins: new logic
+can be added simply by implementing a plugin without having to touch any other
+implementation files.
 
-**TODO**: brief description of the framework and its current status
+Currently, this framework implements the following features:
+- RV32I(M)
+- Fully bypassed classic 5-stage RISC pipeline that is highly configurable:
+  - Can be completely disabled (i.e., 5 CPI);
+  - Easy to add and combine stages;
+  - Bypassing could be replaced with stalling;
+  - ...
+- Supports instructions that take more than one cycle in a stage:
+  - For example, the M-extension (MUL/DIV/REM);
+  - Blocking memory accesses.
+- Machine-Level ISA (CSRs, traps);
+- SoC:
+  - Integration with AXI4 and APB buses;
+  - Simple peripherals (Machine Timer, UART,...).
+- Tested using [riscv-tests](https://github.com/riscv/riscv-tests) and formally
+  verified using [riscv-formal](https://github.com/SymbioticEDA/riscv-formal).
 
 Some examples of extensions that we plan to implement and evaluate include:
 
