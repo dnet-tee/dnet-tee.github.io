@@ -15,7 +15,7 @@ classes: wide
   </div>
 </div>
 
-## Processor extensions for security
+## Processor framework
 
 The implementation of software security objectives can benefit substantially from
 hardware support. Processors commonly implement instructions or extensions specifically
@@ -60,14 +60,19 @@ Currently, this framework implements the following features:
 - Tested using [riscv-tests](https://github.com/riscv/riscv-tests) and formally
   verified using [riscv-formal](https://github.com/SymbioticEDA/riscv-formal).
 
+## Processor extensions
+
 Some examples of extensions that we plan to implement and evaluate include:
 
- - Support for capability based security, see for instance the following papers:
-    * CHERI
-    * **TODO**
+- Trusted Execution Environments (e.g., [Sancus](https://distrinet.cs.kuleuven.be/software/sancus/));
+- Support for capability based security (like [CHERI](https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/))
+  to enable experimenting with extensions of the basic capability model:
+  - [Local capabilities](https://cs.au.dk/~birke/papers/local-capabilities-journal.pdf);
+  - Linear capabilities;
+  - ...
 
- - Extensions that enable the implementation of countermeasures against micro-architectural attacks, see for instance the following papers:
-    * Spectre
-    * Context
+- Extensions that enable the implementation of countermeasures against micro-architectural attacks, see for instance the following papers:
+  * Spectre
+  * Context
 
 
