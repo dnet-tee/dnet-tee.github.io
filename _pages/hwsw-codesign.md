@@ -7,9 +7,9 @@ classes: wide
 
 <div class="feature__item--center">
    <div class="archive__item">
-    <h1>Processor extensions for extensions</h1>       
+    <h1>Processor extensions for security</h1>       
     <p>
-      Short teaser text for applications<br >
+      Better aligning hardware security with software security<br >
     </p>
     
   </div>
