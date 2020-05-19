@@ -71,8 +71,8 @@ Some examples of extensions that we plan to implement and evaluate include:
   - Linear capabilities;
   - ...
 
-- Extensions that enable the implementation of countermeasures against micro-architectural attacks, see for instance the following papers:
-  * Spectre
-  * Context
+- Extensions that enable the implementation of countermeasures against micro-architectural attacks, see for instance:
+  * The [Spectre attack](https://spectreattack.com/) as the prime example of such a micro-architectural attack;
+  * The [Context countermeasure](https://misc0110.net/files/context.pdf) as an example of a countermeasure;
 
 
